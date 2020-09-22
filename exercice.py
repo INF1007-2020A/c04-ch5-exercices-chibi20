@@ -86,7 +86,7 @@ def verify_ages(groups: List[List[int]]) -> List[bool]:
 
 
 
-    return [final]
+    return final
 
 
 def main() -> None:
