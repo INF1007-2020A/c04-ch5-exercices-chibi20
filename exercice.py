@@ -13,9 +13,11 @@ def convert_to_absolute(number: float) -> float:
 
 def use_prefixes() -> List[str]:
     prefixes, suffixe = 'JKLMNOPQ', 'ack'
-    Liste_nom = [None]
+    Liste_nom = None
     for i in prefixes:
-        Liste_nom += i+suffixe
+        Liste_nom = i+suffixe
+        print(Liste_nom)
+
     return ["Liste_nom"]
 
 
