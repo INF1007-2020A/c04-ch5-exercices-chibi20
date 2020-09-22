@@ -19,19 +19,23 @@ def use_prefixes() -> List[str]:
 
     return Liste_nom
 
+def is_prime_nuber(number):
+    for i in range(2, number//2):
+        if number % i == 0:
+            return False
+
+    return True
+
 
 def prime_integer_summation() -> int:
-    nombre = 2
+    prime = [2, 3, 5]
+    number=6
     somme = 0
-    i = 0
-    while i<100:
-        for j in range(nombre-1, 2, -1):
-            if nombre%j == 0:
-                break
-            else:
-                somme += nombre
-                i += 1
-        nombre+=1
+    while len(prime) < 100:
+        if is_prime_nuber(number):
+            prime.append(number)
+            somme += number
+        number += 1
 
     return somme
 
