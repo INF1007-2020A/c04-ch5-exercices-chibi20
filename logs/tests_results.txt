@@ -25,17 +25,19 @@ FAIL: test_prefixes (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 32, in test_prefixes
     'Mauvaise réponse'
-AssertionError: Lists differ: ['Liste_nom'] != ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack']
+AssertionError: Lists differ: [['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack']] != ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack']
 
 First differing element 0:
-'Liste_nom'
+['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack']
 'Jack'
 
 Second list contains 7 additional elements.
 First extra element 1:
 'Kack'
 
-- ['Liste_nom']
+- [['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack']]
+? -                                                                -
+
 + ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack'] : Mauvaise réponse
 
 ======================================================================
