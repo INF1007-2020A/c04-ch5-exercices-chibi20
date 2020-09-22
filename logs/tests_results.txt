@@ -25,7 +25,7 @@ FAIL: test_summation (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 50, in test_summation
     'Mauvaise réponse'
-AssertionError: 1458 != 24133 : Mauvaise réponse
+AssertionError: 24123 != 24133 : Mauvaise réponse
 
 ======================================================================
 FAIL: test_verify_ages (__main__.TestExercice)
@@ -43,6 +43,6 @@ False
 + [False, True, False, False, True, True, True, True, False] : Mauvaise réponse
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.001s
+Ran 5 tests in 0.002s
 
 FAILED (failures=3)
