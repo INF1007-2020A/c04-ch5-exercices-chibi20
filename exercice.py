@@ -26,12 +26,12 @@ def prime_integer_summation() -> int:
     somme = 0
     i = 0
     while i<100:
-        for j in range(nombre-1, 1, -1):
+        for j in range(nombre-1, 2, -1):
             if nombre%j == 0:
                 break
             else:
-                i+=1
                 somme += nombre
+                i += 1
         nombre+=1
 
     return somme
