@@ -44,7 +44,7 @@ FAIL: test_summation (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 50, in test_summation
     'Mauvaise réponse'
-AssertionError: 0 != 24133 : Mauvaise réponse
+AssertionError: 1533 != 24133 : Mauvaise réponse
 
 ======================================================================
 FAIL: test_verify_ages (__main__.TestExercice)
